@@ -26,7 +26,7 @@ export default () => {
                 <div className=' d-flex flex-column justify-content-center min100vh'>
                     <div className='Email-feild mx-auto bg-white rounded-4 py-5 px-3 px-md-5 text-center'>
                         <img src={Asset} alt='' height="100px" />
-                            <p className='text-center'>Your request for joing <strong>Waiting </strong>has been recieved.</p>
+                            <p className='text-center'>We’ve received your request for the Luly waitlist. Further updates will be sent to the phone number you have registered with.</p>
                         <button type='button' className="border-0 py-2 rounded-pill px-5 w-100 bg-black text-white" onClick={() => navigate('/Home')} >
                             Go Home
                         </button>
@@ -34,7 +34,7 @@ export default () => {
                     <div className=''>
                         <div className='w-100 Email-feild d-flex justify-content-around mx-auto'>
 
-                            <a href="/privacy-policy" className='text-white'>Terms & Conditions</a>
+                            <a href="/terms-and-conditions" className='text-white'>Terms & Conditions</a>
                             <a href="/privacy-policy" className='text-white'>Privacy Policy</a>
                         </div>
                     </div>

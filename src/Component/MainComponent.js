@@ -5,6 +5,7 @@ import WaitList from "./Routes/WaitList";
 /*import PinCode from "./Routes/PinCode";*/
 import ThankyouScreen from "./Routes/ThankyouScreen";
 import PrivacyPolicy from "./Routes/Privacy policy";
+import TermsAndConditions from "./Routes/Terms and conditions";
 
 
 
@@ -15,7 +16,7 @@ const MainComponent = () => {
             <Route path='/Join-wait-list' element={<WaitList />} />
             <Route path='/Submitted' element={<ThankyouScreen />} />
             <Route path='/privacy-policy' element={<PrivacyPolicy />} />
-
+            <Route path='/terms-and-conditions' element={<TermsAndConditions/>} />
             <Route
                 path="*"
                 element={<Navigate to="/Home" replace />}

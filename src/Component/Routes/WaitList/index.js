@@ -124,7 +124,7 @@ const WaitList = () => {
                         </div>
                         <div className=''>
                             <div className='w-100 Email-feild d-flex justify-content-around mx-auto'>
-                            <a href="/privacy-policy" className='text-white'>Terms & Conditions</a>
+                            <a href="/terms-and-conditions" className='text-white'>Terms & Conditions</a>
                                 <a href="/privacy-policy" className='text-white'>Privacy Policy</a>
                             </div>
                         </div>
